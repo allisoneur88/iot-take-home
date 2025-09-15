@@ -1,0 +1,25 @@
+# Python build/venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Virtualenv Mac/Win/Linux variations
+*.env
+.venv/
+venv/
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker volumes/data
+influxdb-data/
+grafana-data/
