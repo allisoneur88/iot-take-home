@@ -1,0 +1,5 @@
+paho-mqtt>=1.6
+PyQt>=5.15
+matplotlib>=3.5
+pandas>=1.5
+numpy>=1.22
