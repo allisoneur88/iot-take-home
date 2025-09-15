@@ -45,4 +45,6 @@ python main.py
 
 ## Testing Pub
 Requires mosquitto installed locally
+```bash
 mosquitto_pub -h localhost -p 1883 -t "m/MES/UnitsProduced" -m '{"units": 42}'
+```
