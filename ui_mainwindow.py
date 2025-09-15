@@ -43,7 +43,7 @@ class MainWindow(QMainWindow):
         container.setLayout(layout)
         self.setCentralWidget(container)
 
-        # --- MQTT ---
+        # mqtt 
         self.mqtt = MqttHandler()
         self.mqtt.received_callback = self.on_units_produced
         self.mqtt.sensor_callback = self.on_sensor_update
