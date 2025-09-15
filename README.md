@@ -9,8 +9,8 @@ Python dependencies are listed in `requirements.txt`
 ### 1. Clone the Repo
 
 ```bash
-git clone ...
-cd here ...
+git clone https://github.com/allisoneur88/iot-take-home.git
+cd iot-take-home 
 
 ```
 
